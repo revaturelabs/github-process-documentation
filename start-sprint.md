@@ -19,4 +19,4 @@
   * Ensure that the ISSUE KEY: is set to the Jira issue tag ex. `[GH-43]`
     * Putting brackets on the issue key will allow the bot to automatically link the issue key to the Jira story
 
-* Ensure all associates have the repos locally and run the setup.sh script
+* Ensure all associates have the repos locally and run the setup.sh script they need to configure their username and name (name should be their actual name)
