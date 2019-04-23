@@ -1,4 +1,4 @@
-# Envirment Setup
+# Environment Setup
 
 Each repo should have a README.md that has a `Setup` section to explain how to setup the environment for the application to function.
 
