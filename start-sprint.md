@@ -10,7 +10,7 @@
 
 * Ensure branch protections are in place on the repo the batch will be working on
 
-* Create a new team in [revaturelabs]() (naming should be batch-trainer ex. 1901-Java-JoeTheTrainer)
+* Create a new team in [revaturelabs](https://github.com/revaturelabs) (naming should be batch-trainer ex. 1901-Java-JoeTheTrainer)
 
 * Add all associates to the team and grant the team write access to the repo they are working on
 
