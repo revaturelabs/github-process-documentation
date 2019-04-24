@@ -2,7 +2,7 @@
 
 > Note: this documents the process of starting a sprint that has already been worked on in the past and has already been setup
 
-* On Jira, create a new sprint if the next one has not already been planned (there would be an existing sprit when viewing the backlog)
+* On [Jira](https://revaturetraining.atlassian.net), create a new sprint if the next one has not already been planned (there would be an existing sprit when viewing the backlog)
     > **If a sprint is already defined** simply click start sprint and input the necessary information and you can skip the rest of this document
 
 * Move all stories that the sprint will work on into the new sprint
@@ -22,4 +22,10 @@
   * Ensure that the ISSUE KEY: is set to the Jira issue tag ex. `[GH-43]`
     * Putting brackets on the issue key will allow the bot to automatically link the issue key to the Jira story
 
-* Ensure all associates have the repos locally and run the setup.sh script they need to configure their username and name (name should be their actual name)
+* Ensure all associates have the repos locally and run the setup.sh script. Before starting on the project they need to configure their username and name (name should be their actual name)
+   > Note that this is using local config which means their current working directory needs to be in the git project they are working on (microservices would need to do this for all of them). Alternatively use `--global`
+
+    ```sh
+    git config --local user.name "John Smith"
+    git config --local user.email "john.smith@gmail.com"
+    ```
