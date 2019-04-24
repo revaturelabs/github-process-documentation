@@ -1,0 +1,4 @@
+# Branching Pattern
+
+
+## Protecting Branches

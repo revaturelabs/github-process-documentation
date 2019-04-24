@@ -1,6 +1,9 @@
 # Starting a Sprint
 
+> Note: this documents the process of starting a sprint that has already been worked on in the past and has already been setup
+
 * On Jira, create a new sprint if the next one has not already been planned (there would be an existing sprit when viewing the backlog)
+    > **If a sprint is already defined** simply click start sprint and input the necessary information and you can skip the rest of this document
 
 * Move all stories that the sprint will work on into the new sprint
 
@@ -8,7 +11,7 @@
 
 * Select Start Sprint and input the date the sprint will end on
 
-* Ensure branch protections are in place on the repo the batch will be working on
+* Ensure branch protections are in place on the repo the batch will be working on [See Protecting Branches](github/branching-pattern.md)
 
 * Create a new team in [revaturelabs](https://github.com/revaturelabs) (naming should be batch-trainer ex. 1901-Java-JoeTheTrainer)
 
